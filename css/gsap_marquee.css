@@ -1,0 +1,45 @@
+.sm-marquee-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: hidden;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  --font-size: 4.5rem;
+  --spacing: 0.625rem;
+}
+
+.sm-marquee-faded:hover {
+  opacity: 1 !important;
+}
+
+.sm-marquee-line {
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  will-change: transform;
+  font-family: var(--e-global-typography-primary-font-family);
+  font-size: var(--font-size);
+}
+
+.sm-marquee-item {
+  padding: 0;
+  display: inline-block;
+  margin-right: var(--spacing);
+}
+
+.separator {
+  margin: 0 var(--spacing);
+}
+
+@media (max-width: 767px) {
+  .sm-marquee-wrapper {
+    --font-size: 3.5rem;
+    --spacing: .5rem;
+  }
+}
+/*# sourceMappingURL=gsap_marquee.css.map */
