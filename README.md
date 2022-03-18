@@ -13,7 +13,9 @@ require WPMU_PLUGIN_DIR . '/gsap-marquee/gsap-marquee.php';
 
 ## How To Use
 Add the following shortcode
-```[gsap-marquee]```
+```
+[gsap-marquee]
+```
 
 Available parameters
 ```
